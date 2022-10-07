@@ -1,0 +1,19 @@
+body{
+    background-color: aqua;
+    position: centre;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: black;
+    
+}
+@keyframes example{
+    from{box-shadow:1px 1px 38px red;}
+    to{box-shadow:1px 1px 38px yellow;}
+    
+}
+.btn-success:hover{
+background-color:red;
+}
